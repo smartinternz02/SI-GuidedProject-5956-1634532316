@@ -1,11 +1,9 @@
-
-
 from tensorflow.keras.models import load_model
 import numpy as np
 from tensorflow.keras.preprocessing import image
 
 
-model = load_model("shape.h5") # loading our model
+model = load_model("shapes.h5") # loading our model
 
 def predict(InputImg):
     
